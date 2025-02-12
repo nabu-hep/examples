@@ -33,3 +33,28 @@ WET model used in the paper is included in `WET/wet-model.nabu` including the tr
 ```bash
 nabu-fit-to-data -dp WET/wet-dataset.npz -e 600 -w 64 -l 2 -d 3 -lr 0.001 -mlr 0.0001
 ```
+
+# Sample illustrations
+The complexity of the different samples can be illustrated using
+```bash
+python visualisation.py {ATLAS,LHCb,WET}
+```
+
+<table>
+<tr>
+  <th>Figure</th>
+  <th>Caption</th>
+</tr>
+<tr>
+  <td><img src="/ATLAS.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>One- and two-dimensional projections of the ATLAS example data set.</td>
+</tr>
+<tr>
+  <td><img src="/LHCb.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>One- and two-dimensional projections of the LHCb example data set.</td>
+</tr>
+<tr>
+  <td><img src="/WET.png?raw=true" width="1000px" height="auto"></a></td>
+  <td>One- and two-dimensional projections of the WET example data set.</td>
+</tr>
+</table>
