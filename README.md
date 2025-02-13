@@ -45,6 +45,8 @@ The complexity of the different samples can be illustrated using
 python visualisation.py {ATLAS,LHCb,WET}
 ```
 
+Please note that in addition to the packages required in the main repo ([see here](requirements.txt)), the script uses `pandas`, `mplhep`, and `hist` which are available with `pip` and `conda`.
+
 <table>
 <tr>
   <th>Figure</th>
