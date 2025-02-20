@@ -1,5 +1,9 @@
 # Examples for Nabu
 
+[![arxiv](https://img.shields.io/static/v1?style=plastic&label=arXiv&message=2502.09494&color=brightgreen)](https://arxiv.org/abs/2502.09494)
+[![DOI](https://zenodo.org/badge/896864264.svg)](https://doi.org/10.5281/zenodo.14902618)
+
+
 This repository contains the likelihood models presented in the paper and instructions on replicating the results using the nabu package. Below, we describe how to run each analysis. The following prescription allows each model to be loaded and used.
 
 ```python
